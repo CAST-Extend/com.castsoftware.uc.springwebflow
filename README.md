@@ -1,6 +1,6 @@
 # com.castsoftware.uc.springwebflow
 
-# Spring WebFlow Analyzer
+# Spring Web Flow Analyzer
 
 # Introduction : 
 
@@ -15,23 +15,30 @@ This technical package is deliver "as-is". It has been used in a limited number 
 This package has been tested in CAST 8.1.x 
 
 ## Additional types of objects bring by this extension 
-Objects being part of Spring WebFlow Metamodel : View-State, Action-State, Decision-State, Subflow-State, On-Start, ... 
+Objects being part of Spring WebFlow Metamodel : View-State, Action-State, Decision-State, Subflow, On-Start, ... 
 
 ![Spring WebFlow](/springWebFlowMetamodel.jpg)
 
 ## Cases covered by this extension 
 
 The following cases are covered by the extension : 
-- creation of objects for Spring WebFlow artefacts    
+- creation of objects for Spring Web Flow artefacts 
+- links between Spring Web Flow objects 
+- links from view-state to view and model 
+- links between Spring Web Flow objects and Java classes & methods 
+- ... 
 
-## Sample transactions Spring WebFlow end to end graphical view 
+## Sample transactions Spring Web Flow end to end graphical view 
 to be done 
 
 ## TCC configuration
-to be described 
+All the "Evaluate" (defined in the metamodel) have to be defined as entry points instead of the eFile. 
 
 # TODO 
-to be described 
+Analysis Unit (or webapp) to be taken into account for determination of the beans (to be able to delete duplicates) 
+Analysis Unit (or webapp) to be taken into account for determination of the jsp and tiles (to be able to delete duplicates) 
+Manage inheritance between Web Flow definition in different files 
+To be described more 
 
 # How to contribute
 For bugs, feature requests, and contributions contact Thierry Guégan t.guegan@castsoftware.com.
