@@ -41,5 +41,5 @@ Manage inheritance between Web Flow definition in different files
 To be described more 
 
 # How to contribute
-For bugs, feature requests, and contributions contact Thierry GuÃ©gan t.guegan@castsoftware.com.
+For bugs, feature requests, and contributions contact Thierry Guégan t.guegan@castsoftware.com.
 You may also send a thank you if you find this useful.
